@@ -1,5 +1,12 @@
 ;;; bgr.el --- major mode for Beans grammar -*- lexical-binding: t; -*-
 
+
+;;; Commentary:
+;; Defines two major modes, one for editing lexer grammar files, one for editing
+;; regular parser grammar files.
+
+;;; Code:
+
 (eval-when-compile
   (require 'rx))
 
@@ -46,3 +53,7 @@
 (add-to-list 'auto-mode-alist '("\\.gr\\'" . beans-grammar-mode))
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.lx\\'" . beans-lexer-mode))
+
+(provide 'beans)
+
+;;; beans.el ends here
