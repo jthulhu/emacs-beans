@@ -1,5 +1,8 @@
-;;; bgr.el --- major mode for Beans grammar -*- lexical-binding: t; -*-
+;;; beans.el --- Major mode for Beans grammar -*- lexical-binding: t; -*-
 
+;; Version: 1
+;; URL: https://github.com/TheBlackBeans/emacs-beans
+;; Package-Requires: ((emacs "24.3"))
 
 ;;; Commentary:
 ;; Defines two major modes, one for editing lexer grammar files, one for editing
