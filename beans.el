@@ -3,7 +3,7 @@
 ;; Version: 1
 ;; URL: https://github.com/TheBlackBeans/emacs-beans
 ;; Package-Requires: ((emacs "24.3"))
-;; SPDX-License-Identifier: MIT or GPL-3.0-or-later
+;; SPDX-License-Identifier: MIT OR GPL-3.0-or-later
 
 ;;; Commentary:
 ;; Defines two major modes, one for editing lexer grammar files, one for editing
